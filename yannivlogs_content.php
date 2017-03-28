@@ -1,7 +1,7 @@
 <?php
 
 //fetch xml for youtube channel
-$json = https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UCKHBJ-C1ZVYKtIyY01Uzf6g&key=AIzaSyCKEb2K3Qaz7ydIa4gxy4LI8k2PbxoifZ4
+$json = https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=
 
 $server_time = $xml->updated;
   $return = array();
