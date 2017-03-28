@@ -1,7 +1,10 @@
 <div class="blog-post">
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	<h2 class="blog-post-title">Sample blog post</h2>
+	<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
-  <!-- contents of the loop -->
+	<p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+	<hr>
 
-  <?php endwhile; endif; ?>
+<!-- the rest of the content -->
+
 </div><!-- /.blog-post -->
