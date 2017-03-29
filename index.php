@@ -2,9 +2,9 @@
 
 	<div class="row">
 
-		<div class="col-sm-8 blog-main">
+		<div class="col-sm-4 blog-main">
 
-      <?php
+    <?php
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
 
 				get_template_part( 'content', get_post_format() );
@@ -19,8 +19,6 @@
     <?php endif; ?>
 
 		</div> <!-- /.blog-main -->
-
-		<?php get_sidebar(); ?>
 
 	</div> <!-- /.row -->
 
