@@ -147,4 +147,10 @@ function create_obsessions() {
 	));
 }
 add_action( 'init', 'create_obsessions' );
+
+/**
+ * Support Search Form
+ */
+
+add_theme_support( 'html5', array( 'search-form' ) );
 ?>
