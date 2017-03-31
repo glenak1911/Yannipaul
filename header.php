@@ -23,23 +23,23 @@
   </head>
 
   <body>
-
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="<?php bloginfo( 'url' );?>">Home</a>
-          <a class="blog-nav-item" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a>
-          <a class="blog-nav-item" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a>
-          <a class="blog-nav-item" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a>
-          <a class="blog-nav-item" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a>
-          <a class="blog-nav-item" href="<?php bloginfo( 'url' );?>">YanniVlogs</a>
-        </nav>
-      </div>
-    </div>
     <div class="jumbotron">
       <div>
         <h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
         <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
       </div>
     </div>
+    <nav class="customNav">
+      <div class="container">
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <ul class="customNavList">
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></li>
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
+          <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">YanniVlogs</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">

@@ -1,7 +1,7 @@
 <?php if ( post_password_required() ) {
 	return;
 } ?>
-	<div id="comments" class="comments-area">
+	<div id="comments" class="col-md-8 comments-area">
 		<?php if ( have_comments() ) : ?>
 			<h3 class="comments-title">
 				<?php
