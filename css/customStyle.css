@@ -1,0 +1,61 @@
+body{
+  background-color: #d9d9d9;
+  font-family: 'Muli', sans-serif;
+}
+
+.jumbotron{
+  text-align: center;
+  background-color: #cc0066;
+}
+
+h1.header{
+  font-family: 'Pinyon Script', cursive;
+}
+
+a.titleHeader{
+  color: #ffffe6;
+}
+
+p.titleDescription{
+  color: #000000;
+}
+
+ol.socialMedia li{
+  display:inline-block;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.postContainer{
+  padding:5px;
+  width:100%;
+}
+
+.blog-post{
+  background-color:#ffffff;
+  opacity:.8;
+}
+
+.blog-footer{
+  background-color:#000000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+#credits{
+  font-size: small;
+}

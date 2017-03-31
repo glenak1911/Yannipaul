@@ -5,7 +5,7 @@ function startwordpress_scripts() {
 	wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
   wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array( 'jquery' ), '3.3.6', true );
-
+  wp_enqueue_style( 'customStyle', get_template_directory_uri() . '/css/customStyle.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
@@ -55,15 +55,22 @@ function setting_youtube() { ?>
   <input type="text" name="youtube" id="youtube" value="<?php echo get_option( 'youtube' ); ?>" />
 <?php }
 
+// Snapchat
+function setting_snapchat() { ?>
+  <input type="text" name="snapchat" id="snapchat" value="<?php echo get_option( 'snapchat' ); ?>" />
+<?php }
+
 function custom_settings_page_setup() {
   add_settings_section( 'section', 'All Settings', null, 'theme-options' );
   add_settings_field( 'twitter', 'Twitter URL', 'setting_twitter', 'theme-options', 'section' );
   add_settings_field( 'instagram', 'Instagram URL', 'setting_instagram', 'theme-options', 'section' );
   add_settings_field( 'youtube', 'Youtube URL', 'setting_youtube', 'theme-options', 'section' );
+  add_settings_field( 'snapchat', 'Snapchat URL', 'setting_snapchat', 'theme-options', 'section' );
 
   register_setting('section', 'twitter');
   register_setting('section', 'instagram');
   register_setting('section', 'youtube');
+  register_setting('section', 'snapchat');
 
 }
 add_action( 'admin_init', 'custom_settings_page_setup' );

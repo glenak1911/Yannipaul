@@ -16,6 +16,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
 
@@ -33,10 +36,10 @@
         </nav>
       </div>
     </div>
-
-    <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title"><a href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-        <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+    <div class="jumbotron">
+      <div>
+        <h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+        <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
       </div>
+    </div>
+    <div class="container">

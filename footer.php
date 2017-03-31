@@ -1,10 +1,13 @@
 </div><!-- /.container -->
 
 <footer class="blog-footer">
-  <p>Template by <a target="_blank" href="https://knightglen.com">KnightVision</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
+  <ol class="socialMedia">
+    <li><a class="fa fa-instagram" href="<?php echo get_option('instagram'); ?>"></a></li>
+    <li><a class="fa fa-twitter"href="<?php echo get_option('twitter'); ?>"></a></li>
+    <li><a class="fa fa-snapchat"href="<?php echo get_option('snapchat'); ?>"></a></li>
+    <li><a class="fa fa-youtube" href="<?php echo get_option('youtube'); ?>"></a></li>
+  </ol>
+  <p id="credits"><a target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
 </footer>
 
 
