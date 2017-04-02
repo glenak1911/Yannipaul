@@ -58,12 +58,28 @@ h1.header{
   font-family: 'Pinyon Script', cursive;
 }
 
+h3.frontPageHeader{
+  font-family: 'Pinyon Script', cursive;
+  vertical-align: middle;
+  line-height: 300px;
+  transform: rotate(-10deg);
+}
+
 a.titleHeader{
   color: #ffffe6;
 }
 
 p.titleDescription{
   color: #000000;
+}
+
+.frontPageSection{
+  margin:0px;
+  width:300px;
+  height:300px;
+  padding-bottom:5px;
+  border:1px solid;
+  text-align:center;
 }
 
 ol.socialMedia li{
