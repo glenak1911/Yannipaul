@@ -6,7 +6,6 @@ body{
 .jumbotron{
   text-align: center;
   background-color: #cc0066;
-  background-image: url(../img/voilet_polygon.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,8 +79,8 @@ a:hover{
   padding: 1rem;
   text-align: center;
   position: relative;
-/*  margin-top: -150px; /* negative value of footer height */
-/*  height: 150px; */
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
   width:100%;
   clear:both;
 }
