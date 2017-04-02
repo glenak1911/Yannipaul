@@ -85,7 +85,7 @@ a:hover{
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -110,16 +110,13 @@ a:hover{
 
 .blog-footer{
   background-color:#000000;
-  /*right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem; */
   text-align: center;
   position: relative;
   margin-top: -150px; /* negative value of footer height */
   height: 150px;
   width:100%;
   clear:both;
+  font-size:small;
 }
 
 .blog-footer a{
@@ -128,4 +125,10 @@ a:hover{
 
 #credits{
   font-size: small;
+}
+
+#credits:hover{
+  font-weight:bold;
+  -webkit-transition: font-weight .8s ease-in-out; /* Safari */
+  transition: font-weight .8s ease-in-out;
 }

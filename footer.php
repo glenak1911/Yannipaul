@@ -9,6 +9,7 @@
     <li><a class="fa fa-snapchat socialMediaItem"href="<?php echo get_option('snapchat'); ?>"></a></li>
     <li><a class="fa fa-youtube socialMediaItem" href="<?php echo get_option('youtube'); ?>"></a></li>
   </ol>
+  <p>Copyright &copy; <?php echo date("Y"); ?> </p>
   <p id="credits"><a target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
 </footer>
 
