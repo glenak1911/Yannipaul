@@ -13,7 +13,7 @@ html, body {
 
 #main {
   overflow: auto;
-  padding-bottom: 150px; /* must be same height as the footer */
+  padding-bottom: 200px; /* must be same height as the footer */
 }
 
 body{
@@ -113,7 +113,7 @@ a:hover{
   text-align: center;
   position: relative;
   margin-top: -150px; /* negative value of footer height */
-  height: 150px;
+  height: 200px;
   width:100%;
   clear:both;
   font-size:small;
@@ -121,6 +121,16 @@ a:hover{
 
 .blog-footer a{
   color:#ffffe6;
+}
+
+.imageHolder{
+  height:100%;
+  width:100%;
+}
+
+.yanniPaulLogo{
+  height:100px;
+  width:inherit;
 }
 
 #credits{

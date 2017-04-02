@@ -3,14 +3,43 @@
 </div><!-- /.wrap -->
 
 <footer class="blog-footer">
-  <ol class="socialMedia">
-    <li><a class="fa fa-instagram socialMediaItem" href="<?php echo get_option('instagram'); ?>"></a></li>
-    <li><a class="fa fa-twitter socialMediaItem"href="<?php echo get_option('twitter'); ?>"></a></li>
-    <li><a class="fa fa-snapchat socialMediaItem"href="<?php echo get_option('snapchat'); ?>"></a></li>
-    <li><a class="fa fa-youtube socialMediaItem" href="<?php echo get_option('youtube'); ?>"></a></li>
-  </ol>
-  <p>Copyright &copy; <?php echo date("Y"); ?> YanniPaul</p>
-  <p id="credits"><a target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="imageHolder">
+          <img class="yanniPaulLogo" src="<?php bloginfo('template_directory'); ?>/img/yanni.jpg" alt="Yanni Logo">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <ol class="socialMedia">
+          <li><a class="fa fa-instagram socialMediaItem" href="<?php echo get_option('instagram'); ?>"></a></li>
+          <li><a class="fa fa-twitter socialMediaItem"href="<?php echo get_option('twitter'); ?>"></a></li>
+          <li><a class="fa fa-snapchat socialMediaItem"href="<?php echo get_option('snapchat'); ?>"></a></li>
+          <li><a class="fa fa-youtube socialMediaItem" href="<?php echo get_option('youtube'); ?>"></a></li>
+        </ol>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+          <p>Copyright &copy; <?php echo date("Y"); ?> YanniPaul</p>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <p id="credits"><a target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
 </footer>
 
 
