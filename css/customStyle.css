@@ -63,6 +63,8 @@ h3.frontPageHeader{
   vertical-align: middle;
   line-height: 300px;
   transform: rotate(-10deg);
+  position:relative;
+  z-index:1;
 }
 
 a.titleHeader{
@@ -80,6 +82,16 @@ p.titleDescription{
   padding-bottom:5px;
   border:1px solid;
   text-align:center;
+}
+
+.frontPageHeaderContainer{
+  position:relative;
+  z-index:2;
+}
+
+.frontPagePost{
+  position:relative;
+  z-index: -1;
 }
 
 ol.socialMedia li{
@@ -147,6 +159,7 @@ a:hover{
 .yanniPaulLogo{
   height:100px;
   width:inherit;
+  clear:both;
 }
 
 #credits{
