@@ -1,6 +1,6 @@
 <?php get_header(); ?>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
         <?php
           $args = array(
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
         <?php
           $args = array(
@@ -37,10 +37,8 @@
       </div>
     </div>
   </div>
-  <br />
-  <br />
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
         <?php
           $args = array(
@@ -58,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
         <?php
           $args = array(

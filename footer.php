@@ -25,7 +25,7 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-          <p>Copyright &copy; <?php echo date("Y"); ?> YanniPaul</p>
+          <p>Copyright &copy; <?php echo date("Y"); ?> Ayanna Carrington</p>
       </div>
       <div class="col-md-4">
       </div>
