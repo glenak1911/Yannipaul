@@ -2,17 +2,15 @@
   <div class="row">
     <div class="col-md-6">
       <div class="frontPageSection">
+        <?php
+          $args = array( 'numberposts' => 1 );
+          $lastposts = get_posts( $args );
+          foreach($lastposts as $post) : setup_postdata($post); ?>
+          	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          	<?php the_content(); ?>
+        <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <h3 class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></h3>
-        </div>
-        <div class="frontPagePost">
-          <?php
-            $args = array( 'numberposts' => 1 );
-            $lastposts = get_posts( $args );
-            foreach($lastposts as $post) : setup_postdata($post); ?>
-            	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            	<?php the_content(); ?>
-          <?php endforeach; ?>
+          <div class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></div>
         </div>
       </div>
     </div>
