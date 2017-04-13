@@ -107,7 +107,7 @@ p.titleDescription{
 
 .frontPageHeader{
   font-family: 'Pinyon Script', cursive;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 300px;
   position:absolute;
   top: 50%;
@@ -150,6 +150,7 @@ a:hover{
 .blog-post{
   background-color:#ffffff;
   opacity:.8;
+  border-radius: 5px;
 }
 
 .comments-area{
