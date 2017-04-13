@@ -107,6 +107,7 @@ p.titleDescription{
 
 .frontPageHeader{
   font-family: 'Pinyon Script', cursive;
+  font-size: 2em;
   line-height: 300px;
   position:absolute;
   top: 50%;
@@ -198,7 +199,9 @@ a:hover{
     padding-bottom: 20px;
   }
 
-
+  .frontPageHeader{
+    font-size:1.5em;
+  }
 
   .yanniPaulLogo{
     display:none;

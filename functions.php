@@ -92,7 +92,8 @@ function create_little_notes() {
 					'title',
 					'editor',
 					'thumbnail',
-				  'custom-fields'
+				  'custom-fields',
+					'comments'
 			)
 	));
 }
@@ -111,7 +112,8 @@ function create_best_thoughts() {
 					'title',
 					'editor',
 					'thumbnail',
-				  'custom-fields'
+				  'custom-fields',
+					'comments'
 			)
 	));
 }
@@ -130,7 +132,8 @@ function create_currently_consuming() {
 					'title',
 					'editor',
 					'thumbnail',
-				  'custom-fields'
+				  'custom-fields',
+					'comments'
 			)
 	));
 }
@@ -149,7 +152,8 @@ function create_obsessions() {
 					'title',
 					'editor',
 					'thumbnail',
-				  'custom-fields'
+				  'custom-fields',
+					'comments'
 			)
 	));
 }
