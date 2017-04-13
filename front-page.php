@@ -9,8 +9,9 @@
          );
           $lastposts = get_posts( $args );
           foreach($lastposts as $post) : setup_postdata($post); ?>
+            <?php $postID = $post->ID; ?>
           	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          	<?php the_content(); ?>
+          	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <h3 class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></h3>
@@ -26,8 +27,9 @@
          );
           $lastposts = get_posts( $args );
           foreach($lastposts as $post) : setup_postdata($post); ?>
+            <?php $postID = $post->ID; ?>
           	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          	<?php the_content(); ?>
+          	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <h3 class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></h3>
@@ -47,8 +49,9 @@
          );
           $lastposts = get_posts( $args );
           foreach($lastposts as $post) : setup_postdata($post); ?>
+            <?php $postID = $post->ID; ?>
           	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          	<?php the_content(); ?>
+          	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <h3 class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></h3>
@@ -64,8 +67,9 @@
          );
           $lastposts = get_posts( $args );
           foreach($lastposts as $post) : setup_postdata($post); ?>
+            <?php $postID = $post->ID; ?>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <?php the_content(); ?>
+            <?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <h3 class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></h3>
