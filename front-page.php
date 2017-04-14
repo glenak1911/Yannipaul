@@ -11,7 +11,7 @@
           foreach($lastposts as $post) : setup_postdata($post); ?>
             <?php $postID = $post->ID; ?>
           	<!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
-          	<?php the_excerpt($postID); ?>
+          	<?php echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' )); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></p>

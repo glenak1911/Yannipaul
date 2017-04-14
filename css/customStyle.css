@@ -167,6 +167,11 @@ a:hover{
   border-radius: 5px;
 }
 
+.thumbnailClass{
+  height:300px;
+  width:100%;
+}
+
 .comments-area{
   background-color:#ffffff;
   opacity:.8;
