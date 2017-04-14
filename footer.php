@@ -6,9 +6,6 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="imageHolder">
-          <img class="yanniPaulLogo" src="<?php bloginfo('template_directory'); ?>/img/yanni.jpg" alt="Yanni Logo">
-        </div>
       </div>
       <div class="col-md-4">
         <ol class="socialMedia">

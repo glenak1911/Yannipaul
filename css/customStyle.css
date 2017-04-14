@@ -17,24 +17,34 @@ html, body {
 }
 
 body{
-  background-color: #d9d9d9;
+  /*background-color: #d9d9d9;*/
   font-family: 'Muli', sans-serif;
 }
 
 .jumbotron{
   text-align: center;
-  background-color: #cc0066;
+  background-color: #FFFFFF;
+  /*background-color: #CD00CD;*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   margin-bottom: 0px;
 }
 
-nav.customNav{
+/* nav.customNav{
   top:0;
+  bottom:0;
+} */
+
+hr.headerHr{
+  margin: 10px;
+	height: 6px;
+  background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
 }
 
 ul.customNavList{
+  top:0;
   width:100%;
 }
 
@@ -51,14 +61,18 @@ ul.customNavList li{
 }
 
 ul.customNavList a{
-  color:#ffffe6;
+  color:#000000;
 }
 
 h1.header{
-  font-family: 'Pinyon Script', cursive;
+  font-family: 'font94030', cursive;
 }
 
 a.titleHeader{
+  color: #000000;
+}
+
+a.panelHeader{
   color: #ffffe6;
 }
 
@@ -160,30 +174,30 @@ a:hover{
   border-radius: 5px;
 }
 
+ul.comment-list{
+  list-style-type: none;
+}
+
+ul.children{
+  list-style-type: none;
+}
+
 .blog-footer{
-  background-color:#000000;
+  background-color:#FFFFFF;
   text-align: center;
   position: relative;
   margin-top: -150px; /* negative value of footer height */
-  height: 200px;
+  height: 150px;
   width:100%;
   clear:both;
   font-size:small;
-}
-
-.blog-footer a{
-  color:#ffffe6;
+  border-top: none;
+  color: #000000;
 }
 
 .imageHolder{
   height:100%;
   width:100%;
-}
-
-.yanniPaulLogo{
-  height:100px;
-  width:inherit;
-  clear:both;
 }
 
 #credits{
@@ -203,9 +217,5 @@ a:hover{
 
   .frontPageHeader{
     font-size:1.5em;
-  }
-
-  .yanniPaulLogo{
-    display:none;
   }
 }

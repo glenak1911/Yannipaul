@@ -14,7 +14,7 @@
           	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></p>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
           	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
           	<?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></p>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
             <?php the_excerpt($postID); ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="titleHeader" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></p>
         </div>
       </div>
     </div>

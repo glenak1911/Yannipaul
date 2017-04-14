@@ -19,34 +19,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://www.fontify.me/wf/69133bf256b63caaef109dd895abd786" rel="stylesheet" type="text/css">
     <?php wp_head(); ?>
   </head>
-
   <body>
     <div id="wrap">
       <div id="main">
         <div class="jumbotron">
-
-
           <div>
             <h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
             <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
           </div>
           <div class="container">
             <!--<a class="navbar-brand" href="#">Navbar</a>-->
-            <nav class="customNav">
+            <hr class="headerHr">
                 <ul class="customNavList">
-                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>|
-                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>|
-                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></li>|
-                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>|
-                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>|
+                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>
+                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
+                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></li>
+                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
+                  <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
                   <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">YanniVlogs</a></li>
                 </ul>
-            </nav>
+            <hr class="headerHr">
           </div>
         </div>
-
-
         <div class="container">
           <br />
