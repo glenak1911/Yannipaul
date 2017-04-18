@@ -1,5 +1,3 @@
-<div class="col-md-2">
-</div>
 <div class="col-md-8">
 	<div class="blog-post">
 		<div class="postContainer">
@@ -11,6 +9,4 @@
 		 <?php the_content(); ?>
 	 </div>
 	</div><!-- /.blog-post -->
-</div>
-<div class="col-md-2">
 </div>
