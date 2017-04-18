@@ -1,9 +1,5 @@
 <?php get_header(); ?>
-
-<div class="col-md-2">
-</div>
 		<div class="col-md-8">
-
 			<?php
 				$args =  array(
 					'post_type' => 'best-thoughts',
@@ -20,7 +16,4 @@
 
 				<?php endwhile; ?>
 		</div> <!-- /.col -->
-<div class="col-md-2">
-</div>
-
-	<?php get_footer(); ?>
+<?php get_footer(); ?>

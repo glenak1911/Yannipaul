@@ -80,7 +80,7 @@
            <?php $postID = $post->ID; ?>
            <!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
            <?php if(has_post_thumbnail($postID)){
-             echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' ));
+             echo get_the_post_thumbnail($postID,'thumbnail',array( 'class' => 'thumbnailClass' ));
            } else {
              the_excerpt($postID);
            } ?>

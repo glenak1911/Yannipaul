@@ -85,6 +85,10 @@ p.titleDescription{
   margin-top:20px;
 }
 
+.blog-post-title{
+  font-family: 'font94030', cursive;
+}
+
 .frontPageSection{
   margin:0px;
   width:100%;
@@ -107,7 +111,7 @@ p.titleDescription{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background-color: #cc0066;
 }
 
