@@ -11,7 +11,11 @@
           foreach($lastposts as $post) : setup_postdata($post); ?>
             <?php $postID = $post->ID; ?>
           	<!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
-          	<?php echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' )); ?>
+            <?php if(has_post_thumbnail($postID)){
+              echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' ));
+            } else {
+              the_excerpt($postID);
+            } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></p>
@@ -25,11 +29,15 @@
             'numberposts' => 1,
             'post_type' => _("best-thoughts")
          );
-          $lastposts = get_posts( $args );
-          foreach($lastposts as $post) : setup_postdata($post); ?>
-            <?php $postID = $post->ID; ?>
-          	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          	<?php the_excerpt($postID); ?>
+         $lastposts = get_posts( $args );
+         foreach($lastposts as $post) : setup_postdata($post); ?>
+           <?php $postID = $post->ID; ?>
+           <!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
+           <?php if(has_post_thumbnail($postID)){
+             echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' ));
+           } else {
+             the_excerpt($postID);
+           } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></p>
@@ -45,11 +53,15 @@
             'numberposts' => 1,
             'post_type' => _("currently-consuming")
          );
-          $lastposts = get_posts( $args );
-          foreach($lastposts as $post) : setup_postdata($post); ?>
-            <?php $postID = $post->ID; ?>
-          	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          	<?php the_excerpt($postID); ?>
+         $lastposts = get_posts( $args );
+         foreach($lastposts as $post) : setup_postdata($post); ?>
+           <?php $postID = $post->ID; ?>
+           <!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
+           <?php if(has_post_thumbnail($postID)){
+             echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' ));
+           } else {
+             the_excerpt($postID);
+           } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></p>
@@ -63,11 +75,15 @@
             'numberposts' => 1,
             'post_type' => _("obsessions")
          );
-          $lastposts = get_posts( $args );
-          foreach($lastposts as $post) : setup_postdata($post); ?>
-            <?php $postID = $post->ID; ?>
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <?php the_excerpt($postID); ?>
+         $lastposts = get_posts( $args );
+         foreach($lastposts as $post) : setup_postdata($post); ?>
+           <?php $postID = $post->ID; ?>
+           <!--<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
+           <?php if(has_post_thumbnail($postID)){
+             echo get_the_post_thumbnail($postID,'thumbnail', array( 'class' => 'thumbnailClass' ));
+           } else {
+             the_excerpt($postID);
+           } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></p>

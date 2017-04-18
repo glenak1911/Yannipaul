@@ -159,11 +159,13 @@ function create_obsessions() {
 }
 add_action( 'init', 'create_obsessions' );
 
+add_image_size( 'wordpress-thumbnail', 300, 300, FALSE );
+
 /**
  * Support Search Form
  */
 
 add_theme_support( 'html5', array( 'search-form' ) );
 
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );
 ?>
