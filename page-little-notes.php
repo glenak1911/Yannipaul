@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-<div class="col-md-2">
-</div>
 		<div class="col-md-8">
 			<?php
 				$args =  array(
@@ -16,6 +14,4 @@
 				</div>
 				<?php endwhile; ?>
 		</div> <!-- /.col -->
-		<div class="col-md-2">
-		</div>
 	<?php get_footer(); ?>
