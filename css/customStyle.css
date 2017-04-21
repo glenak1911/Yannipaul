@@ -167,6 +167,25 @@ a:hover{
   width:100%;
 }
 
+#gridcontainer{
+  margin: 20px 0; width: 100%;
+}
+
+#gridcontainer h2 a{
+  color: #77787a; font-size: 13px;
+}
+#gridcontainer .griditemleft{
+  float: left; width: 278px; margin: 0 40px 40px 0;
+}
+
+#gridcontainer .griditemright{
+  float: left; width: 278px;
+}
+
+#gridcontainer .postimage{
+  margin: 0 0 10px 0;
+}
+
 .blog-post{
   background-color:#ffffff;
   opacity:.8;
