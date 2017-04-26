@@ -41,20 +41,18 @@
 				<?php
 					$counter++;
 					endwhile;
-					//Pagination can go here if you want it.
-
 					endif;
 				?>
-			<br />
-			<div>
-				<nav>
-					<ul class="pager">
-						<li><?php next_posts_link( 'Previous' ); ?></li>
-						<li><?php previous_posts_link( 'Next' ); ?></li>
-					</ul>
-				</nav>
-			</div>
 		</div>
+	</div>
+	<br />
+	<div>
+		<nav>
+			<ul class="pager">
+				<li><?php next_posts_link( 'Next' ); ?></li>
+				<li><?php previous_posts_link( 'Previous' ); ?></li>
+			</ul>
+		</nav>
 	</div>
 </div> <!-- /.col -->
 <?php get_footer(); ?>
