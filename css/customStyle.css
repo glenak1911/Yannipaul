@@ -168,7 +168,6 @@ a:hover{
 }
 
 #gridcontainer{
-  margin: 20px 0;
   width: 100%;
 }
 
@@ -176,21 +175,22 @@ a:hover{
   color: #77787a;
   font-size: 13px;
 }
-#gridcontainer .griditemleft{
+.griditemleft{
   float: left;
   height: 300px;
   width: 300px;
-  margin: 0 40px 40px 0;
+  margin: 0;
 }
 
 #gridcontainer .griditemright{
   float: left;
-  width: 278px;
+  width: 300px;
+  height: 300px;
 }
 
-#gridcontainer .postimage{
+/*#gridcontainer .postimage{
   margin: 0 0 10px 0;
-}
+}*/
 
 .blog-post{
   background-color:#ffffff;
