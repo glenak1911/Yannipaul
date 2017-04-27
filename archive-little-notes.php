@@ -17,10 +17,10 @@
 			<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
 					<div class="postimage front">
-						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+						<?php the_post_thumbnail('medium'); ?>
 					</div>
 					<div class="back">
-						<p><?php the_content(); ?></p>
+						<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_content(); ?></a></p>
 					</div>
 				</div>
 			</div>
@@ -33,10 +33,10 @@
 				<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipper">
 						<div class="postimage front">
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+							<?php the_post_thumbnail('medium'); ?>
 						</div>
 						<div class="back">
-					  	<p><?php the_content(); ?></p>
+							<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_content(); ?></a></p>
 						</div>
 					</div>
 				</div>
