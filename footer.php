@@ -4,6 +4,7 @@
 
 <footer class="blog-footer">
   <div class="container">
+    <hr>
     <div class="row">
       <div class="col-md-4">
       </div>
