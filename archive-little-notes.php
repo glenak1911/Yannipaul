@@ -14,11 +14,15 @@
 	?>
 	<div class="row">
 		<div class="col-md-6 top-buffer">
-			<div class="frontPageSection">
-				<div class="postimage">
-					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+			<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="postimage front">
+						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+					</div>
+					<div class="back">
+						<p><?php the_content(); ?></p>
+					</div>
 				</div>
-        	<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 			</div>
 		</div>
 				<?php
@@ -26,13 +30,18 @@
 					elseif($counter == $grids) :
 				?>
 			<div class="col-md-6 top-buffer">
-				<div class="frontPageSection">
-					<div class="postimage">
-						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+				<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+						<div class="postimage front">
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+						</div>
+						<div class="back">
+					  	<p><?php the_content(); ?></p>
+						</div>
 					</div>
-				  <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				</div>
 			</div>
+		</div>
 			<div class="clear"></div>
 			<?php
 					$counter = 0;
@@ -43,7 +52,7 @@
 					endwhile;
 					endif;
 				?>
-		</div>
+
 	</div>
 	<br />
 	<div>
