@@ -23,6 +23,15 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
+          <div class="searchBox"><?php get_search_form(); ?></div>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
           <p>Copyright &copy; <?php echo date("Y"); ?> Ayanna Carrington</p>
       </div>
       <div class="col-md-4">
@@ -32,7 +41,7 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-        <p id="credits"><a target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
+        <p><a id="credits" target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
       </div>
       <div class="col-md-4">
       </div>
