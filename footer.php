@@ -4,7 +4,19 @@
 
 <footer class="blog-footer">
   <div class="container">
-    <hr>
+  <hr>
+    <div class="row">
+      <div class="col-md-5">
+      </div>
+      <div class="col-md-1">
+        <p><a class="credits" href="<?php bloginfo( 'url' );?>/about">Abount</a></p>
+      </div>
+      <div class="col-md-1">
+        <p><a class="credits" href="<?php bloginfo( 'url' );?>/contact">Contact</a></p>
+      </div>
+      <div class="col-md-5">
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-4">
       </div>
@@ -41,7 +53,7 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-        <p><a id="credits" target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
+        <p><a class="credits" target="_blank" href="https://knightglen.com">KnightVision</a> Design</p>
       </div>
       <div class="col-md-4">
       </div>

@@ -292,11 +292,11 @@ ul.children{
   width:100%;
 }
 
-#credits{
+.credits{
   font-size: small;
 }
 
-#credits:hover{
+.credits:hover{
   font-weight:bold;
   -webkit-transition: font-weight .8s ease-in-out; /* Safari */
   transition: font-weight .8s ease-in-out;
