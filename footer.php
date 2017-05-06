@@ -6,15 +6,15 @@
   <div class="container">
   <hr>
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-1">
-        <p><a class="credits" href="<?php bloginfo( 'url' );?>/about">Abount</a></p>
+      <div class="col-sm-4">
+        <div class="btn-group-xs">
+          <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact</button>
+        </div>
       </div>
-      <div class="col-md-1">
-        <p><a class="credits" href="<?php bloginfo( 'url' );?>/contact">Contact</a></p>
-      </div>
-      <div class="col-md-5">
+      <div class="col-sm-4">
       </div>
     </div>
     <div class="row">
