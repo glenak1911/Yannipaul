@@ -11,7 +11,7 @@
       <div class="col-sm-4">
         <div class="btn-group-xs">
           <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact</button>
+          <button tpe="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -60,14 +60,6 @@
     </div>
   </div>
 </footer>
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
