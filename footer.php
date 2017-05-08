@@ -11,7 +11,7 @@
       <div class="col-sm-4">
         <div class="btn-group-xs">
           <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
-          <button tpe="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact</button>
+          <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/contact';">Contact</button>
         </div>
       </div>
       <div class="col-sm-4">

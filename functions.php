@@ -168,4 +168,10 @@ add_theme_support( 'html5', array( 'search-form' ) );
 add_theme_support( 'post-thumbnails' );
 
 set_post_thumbnail_size( 300, 300 );
+
+function test_shortcodes()
+{
+    return 'Shortcodes are working!';
+}
+add_shortcode('test_shortcodes', 'test_shortcodes');
 ?>

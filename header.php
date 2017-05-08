@@ -43,31 +43,5 @@
             <hr class="headerHr">
           </div>
         </div>
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Yanni Paul Contact">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="pull-left no-margin">Contact Me</h3>
-                <button type="button" class="close" data-dismiss="modal" title="Close"><span class="glyphicon glyphicon-remove"></span></button>
-              </div>
-                <div class="modal-body">
-                  <form id="contactForm" action="scripts/mail.php" method="post">
-                    <fieldset id="contactFieldSet">
-                        Name:<br>
-                      <input id="formName" name="name"type="text" required><br>
-                        E-mail:<br>
-                      <input id="formEmail" name="email" type="text" required><br>
-                        Message:<br>
-                      <textarea id="formTextContent" name="comment" class="submissionText" required></textarea><br>
-                      <a type="submit" class="btn btn-primary" data-toggle="modal" onclick="javascript: return false;" href="#myModal">Submit</a> <input id="resetMessage" class="button" type="reset" value="Clear">
-                    </fieldset>
-                  </form>
-                </div>
-              <div class="modal-footer">
-                <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-        </div>
-      </div>
-        <div class="container">
-          <br />
+      <div class="container">
+      <br />
