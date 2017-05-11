@@ -38,7 +38,7 @@
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">YanniVlogs</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yanni-vlogs">YanniVlogs</a></li>
               </ul>
             <hr class="headerHr">
           </div>
