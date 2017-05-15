@@ -86,7 +86,7 @@ function create_little_notes() {
 					'singular_name' => __( 'Little Notes' ),
 			),
 			'public' => true,
-			'has_archive' => true,
+			'has_archive' => 'little-notes',
 			'supports' => array(
 					'title',
 					'editor',
@@ -106,7 +106,7 @@ function create_best_thoughts() {
 					'singular_name' => __( 'Best Thoughts @ 3am' ),
 			),
 			'public' => true,
-			'has_archive' => true,
+			'has_archive' => 'best-thoughts',
 			'supports' => array(
 					'title',
 					'editor',
@@ -126,7 +126,7 @@ function create_currently_consuming() {
 					'singular_name' => __( 'Currently Consuming' ),
 			),
 			'public' => true,
-			'has_archive' => true,
+			'has_archive' => 'currently-consuming',
 			'supports' => array(
 					'title',
 					'editor',
@@ -146,7 +146,7 @@ function create_obsessions() {
 					'singular_name' => __( 'Obsessions' ),
 			),
 			'public' => true,
-			'has_archive' => true,
+			'has_archive' => 'obsessions',
 			'supports' => array(
 					'title',
 					'editor',
@@ -161,16 +161,9 @@ add_action( 'init', 'create_obsessions' );
 /**
  * Support Search Form
  */
-
 add_theme_support( 'html5', array( 'search-form' ) );
 
 add_theme_support( 'post-thumbnails' );
 
 set_post_thumbnail_size( 300, 300 );
-
-function test_shortcodes()
-{
-    return 'Shortcodes are working!';
-}
-add_shortcode('test_shortcodes', 'test_shortcodes');
 ?>
