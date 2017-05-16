@@ -23,8 +23,8 @@
       <div class="col-md-4">
         <ol class="socialMedia">
           <li><a class="fa fa-instagram socialMediaItem" href="<?php echo get_option('instagram'); ?>"></a></li>
-          <li><a class="fa fa-twitter socialMediaItem"href="<?php echo get_option('twitter'); ?>"></a></li>
-          <li><a class="fa fa-snapchat socialMediaItem"href="<?php echo get_option('snapchat'); ?>"></a></li>
+          <li><a class="fa fa-twitter socialMediaItem" href="<?php echo get_option('twitter'); ?>"></a></li>
+          <li><a class="fa fa-pinterest socialMediaItem" href="<?php echo get_option('pinterest'); ?>"></a></li>
           <li><a class="fa fa-youtube socialMediaItem" href="<?php echo get_option('youtube'); ?>"></a></li>
         </ol>
       </div>

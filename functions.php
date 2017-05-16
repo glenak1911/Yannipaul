@@ -54,9 +54,9 @@ function setting_youtube() { ?>
   <input type="text" name="youtube" id="youtube" value="<?php echo get_option( 'youtube' ); ?>" />
 <?php }
 
-// Snapchat
-function setting_snapchat() { ?>
-  <input type="text" name="snapchat" id="snapchat" value="<?php echo get_option( 'snapchat' ); ?>" />
+// pinterest
+function setting_pinterest() { ?>
+  <input type="text" name="pinterest" id="pinterest" value="<?php echo get_option( 'pinterest' ); ?>" />
 <?php }
 
 function custom_settings_page_setup() {
@@ -64,12 +64,12 @@ function custom_settings_page_setup() {
   add_settings_field( 'twitter', 'Twitter URL', 'setting_twitter', 'theme-options', 'section' );
   add_settings_field( 'instagram', 'Instagram URL', 'setting_instagram', 'theme-options', 'section' );
   add_settings_field( 'youtube', 'Youtube URL', 'setting_youtube', 'theme-options', 'section' );
-  add_settings_field( 'snapchat', 'Snapchat URL', 'setting_snapchat', 'theme-options', 'section' );
+  add_settings_field( 'pinterest', 'Pinterest URL', 'setting_pinterest', 'theme-options', 'section' );
 
   register_setting('section', 'twitter');
   register_setting('section', 'instagram');
   register_setting('section', 'youtube');
-  register_setting('section', 'snapchat');
+  register_setting('section', 'pinterest');
 
 }
 add_action( 'admin_init', 'custom_settings_page_setup' );
