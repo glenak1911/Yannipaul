@@ -75,7 +75,7 @@ a.titleHeader{
 
 a.panelHeader{
   color: #ffffe6;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 p.titleDescription{
@@ -130,7 +130,7 @@ p.titleDescription{
 }
 
 .frontPageSection:hover .frontPageHeaderContainer{
-  opacity: .60;
+  opacity: .80;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
