@@ -5,6 +5,7 @@
 
 html, body {
   height: 100%;
+  color: #000;
 }
 
 #wrap {
@@ -17,24 +18,17 @@ html, body {
 }
 
 body{
-  /*background-color: #d9d9d9;*/
   font-family: 'Muli', sans-serif;
 }
 
 .jumbotron{
   text-align: center;
   background-color: #FFFFFF;
-  /*background-color: #CD00CD;*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   margin-bottom: 0px;
 }
-
-/* nav.customNav{
-  top:0;
-  bottom:0;
-} */
 
 hr.headerHr{
   margin: 10px;
@@ -56,9 +50,9 @@ ul.customNavList li{
 }
 
 .customNavListItem:hover{
-  background-color:#ff69b4;
   -webkit-transition: background-color .5s; /* Safari */
   transition: background-color .5s;
+  background-color: rgba(237, 144, 225, .2);
 }
 
 ul.customNavList a{
@@ -88,6 +82,10 @@ p.titleDescription{
 
 .blog-post-title{
   font-family: 'font94030', cursive;
+}
+
+.comment-reply-title{
+  font-family: 'Muli', sans-serif;
 }
 
 .frontPageSection{
@@ -126,11 +124,11 @@ p.titleDescription{
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: #cc0066;
+  background-color: #e03ecb;
 }
 
 .frontPageSection:hover .frontPageHeaderContainer{
-  opacity: .80;
+  opacity: .85;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -211,6 +209,14 @@ a:hover{
 .littleNoteSquare:hover{
   transition: .3s ease;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* flip the pane when hovered */

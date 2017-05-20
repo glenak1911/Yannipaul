@@ -20,7 +20,7 @@
 						<?php the_post_thumbnail('medium'); ?>
 					</div>
 					<div class="back">
-						<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
+						<p class="center"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
 					</div>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 							<?php the_post_thumbnail('medium'); ?>
 						</div>
 						<div class="back">
-							<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
+							<p class="center"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
 						</div>
 					</div>
 				</div>
