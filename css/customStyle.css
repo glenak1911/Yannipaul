@@ -211,12 +211,16 @@ a:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.center {
+    line-height: 300px;
+    height: 300px;
+    text-align: center;
+}
+
 .center p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* flip the pane when hovered */
