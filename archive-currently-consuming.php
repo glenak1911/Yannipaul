@@ -19,7 +19,7 @@
 					<div class="postimage front">
 						<?php the_post_thumbnail('medium'); ?>
 					</div>
-					<div class="back">
+					<div class="back center">
 						<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
 					</div>
 				</div>
@@ -35,7 +35,7 @@
 						<div class="postimage front">
 							<?php the_post_thumbnail('medium'); ?>
 						</div>
-						<div class="back">
+						<div class="back center">
 							<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
 						</div>
 					</div>
