@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<h2 class="category-title center-title">Best Thoughts @ 3 a.m.</h2>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter

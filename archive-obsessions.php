@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<h2 class="category-title center-title">Obsessions</h2>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter
@@ -17,7 +18,7 @@
 			<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
 					<div class="postimage front">
-						<?php the_post_thumbnail('medium'); ?>
+							<?php the_post_thumbnail('medium'); ?>
 					</div>
 					<div class="back">
 						<div class="excerpt_container center">

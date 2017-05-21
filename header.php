@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Custom Wordpress Theme for YanniPaul.com">
+    <meta name="description" content="Yanni Paul">
     <meta name="author" content="Glen Knight">
-    <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/favicon.jpg" />
     <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
     <link href="https://www.fontify.me/wf/69133bf256b63caaef109dd895abd786" rel="stylesheet" type="text/css">
+    <link href="https://www.fontify.me/wf/8a4d709e5a5b2ca4fdadb6948053db36" rel="stylesheet" type="text/css">
     <?php wp_head(); ?>
   </head>
   <body>
@@ -35,7 +36,7 @@
               <ul class="customNavList">
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yanni-vlogs">YanniVlogs</a></li>
@@ -44,4 +45,3 @@
           </div>
         </div>
       <div class="container">
-      <br />

@@ -18,7 +18,7 @@
             } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little notes</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></p>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@
            } ?>
         <?php endforeach; ?>
         <div class="frontPageHeaderContainer">
-          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3am</a></p>
+          <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></p>
         </div>
       </div>
     </div>

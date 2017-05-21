@@ -2,8 +2,8 @@
 // Add scripts and stylesheets
 function startwordpress_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6' );
+		wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
 	wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
-	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
   wp_enqueue_style( 'customStyle', get_template_directory_uri() . '/css/customStyle.css' );
 }
 
@@ -102,8 +102,8 @@ function create_best_thoughts() {
 	register_post_type( 'best-thoughts',
 			array(
 			'labels' => array(
-					'name' => __( 'Best Thoughts @ 3am' ),
-					'singular_name' => __( 'Best Thoughts @ 3am' ),
+					'name' => __( 'Best Thoughts @ 3 a.m.' ),
+					'singular_name' => __( 'Best Thoughts @ 3 a.m.' ),
 			),
 			'public' => true,
 			'has_archive' => 'best-thoughts',
@@ -157,6 +157,17 @@ function create_obsessions() {
 	));
 }
 add_action( 'init', 'create_obsessions' );
+
+function cmm_partial_types( $types ) {
+
+    $types[] = 'little-notes';
+		$types[] = 'best-thoughts';
+		$types[] = 'currently-consuming';
+		$types[] = 'obsessions';
+
+    return $types;
+}
+add_filter( 'wpcmn_type_support', 'cmm_partial_types' );
 
 /**
  * Support Search Form

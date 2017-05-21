@@ -10,8 +10,8 @@
       </div>
       <div class="col-sm-4">
         <div class="btn-group-xs">
-          <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
-          <button class="btn btn-primary" onclick="location.href='<?php bloginfo( 'url' );?>/contact';">Contact</button>
+          <button class="btn btn-custom" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
+          <button class="btn btn-custom" onclick="location.href='<?php bloginfo( 'url' );?>/contact';">Contact</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -44,7 +44,7 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-          <p>Copyright &copy; <?php echo date("Y"); ?> Ayanna Carrington</p>
+          <p>Copyright &copy; <?php echo date("Y"); ?> Yanni Paul</p>
       </div>
       <div class="col-md-4">
       </div>
