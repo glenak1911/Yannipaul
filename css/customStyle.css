@@ -43,6 +43,7 @@ body{
   background-position: center;
   background-size: cover;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 hr.headerHr{
@@ -102,10 +103,15 @@ p.titleDescription{
   font-family: 'font94030', cursive;
   letter-spacing: 1.5px;
   color: #000;
-  text-align: center;
 }
 
+
 .category-title{
+  font-family: 'font94030', cursive;
+  font-size: 2.5em;
+}
+
+.grid-title-custom{
   font-family: 'font94030', cursive;
   font-size: 2.5em;
 }
@@ -199,7 +205,7 @@ p.titleDescription{
 }
 
 /*.displayed {
-  width: 100%; 
+  width: 100%;
   height: auto;
   margin: 0 auto;
   padding: 10px;
@@ -275,6 +281,7 @@ a:hover{
     margin: 0 auto;
     padding: 0px;
     position: relative;
+    overflow: hidden;
 }
 
 .excerpt_container a{
@@ -282,15 +289,16 @@ a:hover{
 }
 
 .center {
-    line-height: 300px;
     height: 300px;
     text-align: center;
 }
 
-.center p {
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
+.center p span{
+  vertical-align: middle;
+}
+
+.center-title-custom{
+    padding-top:100px;
 }
 
 /* flip the pane when hovered */
@@ -327,6 +335,7 @@ a:hover{
   z-index: 2;
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
+  vertical-align: middle;
 }
 
 /* back, initially hidden pane */

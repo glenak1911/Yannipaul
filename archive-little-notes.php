@@ -22,7 +22,8 @@
 					</div>
 					<div class="back">
 						<div class="excerpt_container center">
-							<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
+							<h4 class="grid-title-custom"><?php the_title(); ?></h4>
+							<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
 						</div>
 					</div>
 				</div>
@@ -40,7 +41,8 @@
 						</div>
 						<div class="back">
 							<div class="excerpt_container center">
-								<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a></p>
+								<h4 class="grid-title-custom"><?php the_title(); ?></h4>
+								<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
 							</div>
 						</div>
 					</div>
