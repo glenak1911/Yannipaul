@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <h2 class="category-title center-title">Obsessions</h2>
+<p class="titleDescription">FOR THOSE THINGS THAT I CAN'T GET ENOUGH OF</p>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter

@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <h2 class="category-title center-title">Currently Consuming</h2>
+<p class="titleDescription">FOR MEDIA THAT I AM CURRENTLY ENGROSSED IN</p>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter

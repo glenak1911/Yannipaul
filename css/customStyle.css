@@ -93,6 +93,7 @@ p.titleDescription{
   letter-spacing: 1.5px;
   font-family: font72895;
   font-size: 10pt;
+  text-align: center;
 }
 
 .top-buffer {
@@ -335,7 +336,22 @@ a:hover{
   z-index: 2;
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  vertical-align: middle;
+}
+
+.front img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.frontPageSection img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle
 }
 
 /* back, initially hidden pane */
@@ -419,7 +435,7 @@ ul.children{
     padding-bottom: 20px;
   }
 
-  .frontPageHeader{
+  .h4PageHeader{
     font-size:1.5em;
   }
 }
