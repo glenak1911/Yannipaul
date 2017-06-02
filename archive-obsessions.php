@@ -19,7 +19,9 @@
 			<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
 					<div class="postimage front">
+						<div class="img-helper">
 							<?php the_post_thumbnail('medium'); ?>
+						</div>
 					</div>
 					<div class="back">
 						<div class="excerpt_container center">
@@ -38,7 +40,9 @@
 				<div class="frontPageSection littleNoteSquare flip-container" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipper">
 						<div class="postimage front">
-							<?php the_post_thumbnail('medium'); ?>
+							<div class="img-helper">
+								<?php the_post_thumbnail('medium'); ?>
+							</div>
 						</div>
 						<div class="back">
 							<div class="excerpt_container center">

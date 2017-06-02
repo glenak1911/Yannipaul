@@ -111,6 +111,9 @@ p.titleDescription{
   font-family: 'font94030', cursive;
   font-size: 2.5em;
 }
+.category-yannivlogs-page h2{
+  text-align: center;
+}
 
 .grid-title-custom{
   font-family: 'font94030', cursive;
@@ -152,6 +155,15 @@ p.titleDescription{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.img-helper{
+  height: 300px;
+  line-height: 300px;
+}
+
+.img-helper img{
+  vertical-align: middle;
 }
 
 .frontPageHeaderContainer{
@@ -339,19 +351,8 @@ a:hover{
 }
 
 .front img{
-  display: block;
   margin: auto;
-  width: 50%;
-  display: table-cell;
-  vertical-align: middle
-}
-
-.frontPageSection img{
-  display: block;
-  margin: auto;
-  width: 50%;
-  display: table-cell;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 /* back, initially hidden pane */
