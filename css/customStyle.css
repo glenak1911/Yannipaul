@@ -91,7 +91,7 @@ a.panelHeader{
 p.titleDescription{
   color: #000000;
   letter-spacing: 1.5px;
-  font-family: font72895;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 10pt;
   text-align: center;
 }
@@ -116,8 +116,8 @@ p.titleDescription{
 }
 
 .grid-title-custom{
-  font-family: 'font94030', cursive;
-  font-size: 2.5em;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 2em;
 }
 
 .comment-reply-title{
@@ -290,11 +290,12 @@ a:hover{
 
 .excerpt_container {
     width: 50%;
-    height: auto;
+    height: 300px;
     margin: 0 auto;
     padding: 0px;
     position: relative;
     overflow: hidden;
+    display: inline-flex;
 }
 
 .excerpt_container a{
@@ -359,6 +360,10 @@ a:hover{
 .back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+}
+
+.excerpt_container_flex{
+  margin: auto 5px;
 }
 
 .blog-post{

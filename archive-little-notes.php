@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h2 class="category-title center-title">Little Notes</h2>
-<p class="titleDescription">FOR SIMPLE YET INSPIRING LIFESTYLE CONTENT</p>
+<p class="titleDescription">for simple yet inspiring lifestyle content</p>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter
@@ -25,8 +25,10 @@
 					</div>
 					<div class="back">
 						<div class="excerpt_container center">
-							<h4 class="grid-title-custom"><?php the_title(); ?></h4>
-							<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
+							<div class="excerpt_container_flex">
+								<h5 class="grid-title-custom"><?php the_title(); ?></h5>
+								<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -46,9 +48,10 @@
 						</div>
 						<div class="back">
 							<div class="excerpt_container center">
-								<h4 class="grid-title-custom"><?php the_title(); ?></h4>
-								<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
-							</div>
+								<div class="excerpt_container_flex">
+									<h5 class="grid-title-custom"><?php the_title(); ?></h5>
+									<a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
+								</div>
 						</div>
 					</div>
 				</div>

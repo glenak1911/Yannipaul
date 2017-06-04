@@ -3,7 +3,7 @@
     <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
         <div class="img-holder">
-          <div class="img-helper">
+          <!--<div class="img-helper">-->
             <?php
               $args = array(
                 'numberposts' => 1,
@@ -19,7 +19,7 @@
                   the_excerpt($postID);
                 } ?>
             <?php endforeach; ?>
-        </div>
+          <!--</div>-->
         </div>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></p>
@@ -54,7 +54,7 @@
   <div class="row">
     <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
-        <div class="img-helper">
+        <!--<div class="img-helper">-->
           <?php
             $args = array(
               'numberposts' => 1,
@@ -70,7 +70,7 @@
                the_excerpt($postID);
              } ?>
           <?php endforeach; ?>
-        </div>
+        <!--</div>-->
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></p>
         </div>
@@ -78,7 +78,7 @@
     </div>
     <div class="col-md-6 top-buffer">
       <div class="frontPageSection">
-        <div class="img-helper">
+        <!--<div class="img-helper">-->
           <?php
             $args = array(
               'numberposts' => 1,
@@ -94,7 +94,7 @@
                the_excerpt($postID);
              } ?>
           <?php endforeach; ?>
-      </div>
+        <!--</div>-->
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></p>
         </div>
