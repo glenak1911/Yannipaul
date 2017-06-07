@@ -32,16 +32,16 @@
           </div>
           <div class="container">
             <!--<a class="navbar-brand" href="#">Navbar</a>-->
-            <hr class="headerHr">
+            <hr class="headerHr-top">
               <ul class="customNavList">
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yanni-vlogs">YanniVlogs</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">HOME</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">LITTLE NOTES</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">BEST THOUGHTS @ 3 A.M.</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">CURRENTLY CONSUMING</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">OBSESSIONS</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yanni-vlogs">YANNIVLOGS</a></li>
               </ul>
-            <hr class="headerHr">
+            <hr class="headerHr-bottom">
           </div>
         </div>
       <div class="container">

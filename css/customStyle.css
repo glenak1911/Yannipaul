@@ -46,17 +46,26 @@ body{
   padding-bottom: 0px;
 }
 
-hr.headerHr{
-  margin: 10px;
-	height: 3px;
+hr.headerHr-bottom{
+  margin:10px 0px 10px 0px;
+  height: 3px;
   background-color: #B74C82;
-	border-top: 2px dotted #8c8b8b;
+  border-top: 2px dotted #8c8b8b;
+  border:none;
+}
+
+hr.headerHr-top{
+  margin:30px 0px 10px 0px;
+  height: 3px;
+  background-color: #B74C82;
+  border-top: 2px dotted #8c8b8b;
   border:none;
 }
 
 ul.customNavList{
   top:0;
   width:100%;
+  margin: 0px;
 }
 
 ul.customNavList li{
@@ -72,11 +81,13 @@ ul.customNavList li{
 }
 
 ul.customNavList a{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   color:#000000;
 }
 
 h1.header{
   font-family: 'font94030', cursive;
+  margin-bottom: 0px;
 }
 
 a.titleHeader{
@@ -94,6 +105,7 @@ p.titleDescription{
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 10pt;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .top-buffer {
@@ -110,6 +122,7 @@ p.titleDescription{
 .category-title{
   font-family: 'font94030', cursive;
   font-size: 2.5em;
+  margin-bottom: 0px;
 }
 .category-yannivlogs-page h2{
   text-align: center;
@@ -117,7 +130,7 @@ p.titleDescription{
 
 .grid-title-custom{
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  font-size: 2em;
+  font-size: 1.55em;
 }
 
 .comment-reply-title{
@@ -434,6 +447,16 @@ ul.children{
 
 .searchBox{
   padding:3px;
+}
+
+@media screen and (min-width: 768px){
+  hr.headerHr-top{
+    margin:48px 0px 10px 0px;
+    height: 3px;
+    background-color: #B74C82;
+    border-top: 2px dotted #8c8b8b;
+    border:none;
+  }
 }
 
 @media(max-width:700px){
