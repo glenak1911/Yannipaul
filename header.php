@@ -39,7 +39,7 @@
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">BEST THOUGHTS @ 3 A.M.</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">CURRENTLY CONSUMING</a></li>
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">OBSESSIONS</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yanni-vlogs">YANNIVLOGS</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yannivlogs">YANNIVLOGS</a></li>
               </ul>
             <hr class="headerHr-bottom">
           </div>

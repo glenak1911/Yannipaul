@@ -158,12 +158,33 @@ function create_obsessions() {
 }
 add_action( 'init', 'create_obsessions' );
 
+function create_yannivlogs() {
+	register_post_type( 'yannivlogs',
+			array(
+			'labels' => array(
+					'name' => __( 'YanniVlogs' ),
+					'singular_name' => __( 'YanniVlogs' ),
+			),
+			'public' => true,
+			'has_archive' => 'yannivlogs',
+			'supports' => array(
+					'title',
+					'editor',
+					'thumbnail',
+				  'custom-fields',
+					'comments'
+			)
+	));
+}
+add_action( 'init', 'create_yannivlogs' );
+
 function cmm_partial_types( $types ) {
 
     $types[] = 'little-notes';
 		$types[] = 'best-thoughts';
 		$types[] = 'currently-consuming';
 		$types[] = 'obsessions';
+		$types[] = 'yannivlogs';
 
     return $types;
 }
@@ -180,7 +201,7 @@ set_post_thumbnail_size( 300, 300 );
 
 function wpse_allowedtags() {
     // Add custom tags to this string
-        return '<br>,<em>,<i>,<ul>,<ol>,<li>,<a>,<p>';
+        return '<br>,<em>,<i>,<ul>,<ol>,<li>,<p>';
     }
 
 if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
@@ -223,8 +244,8 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
 
             $wpse_excerpt = trim(force_balance_tags($excerptOutput));
 
-                $excerpt_end = ' <a href="'. esc_url( get_permalink() ) . '">' . '&nbsp;&raquo;&nbsp;' . sprintf(__( 'Read more about: %s &nbsp;&raquo;', 'wpse' ), get_the_title()) . '</a>';
-                $excerpt_more = apply_filters('excerpt_more', ' ' . $excerpt_end);
+                //$excerpt_end = ' <a href="'. esc_url( get_permalink() ) . '">' . '&nbsp;&raquo;&nbsp;' . sprintf(__( 'Read more about: %s &nbsp;&raquo;', 'wpse' ), get_the_title()) . '</a>';
+                $excerpt_more = apply_filters('excerpt_more');
 
                 //$pos = strrpos($wpse_excerpt, '</');
                 //if ($pos !== false)

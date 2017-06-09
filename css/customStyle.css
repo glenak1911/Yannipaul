@@ -377,6 +377,7 @@ a:hover{
 
 .excerpt_container_flex{
   margin: auto 5px;
+  width: 100%;
 }
 
 .blog-post{
@@ -464,7 +465,7 @@ ul.children{
     padding-bottom: 20px;
   }
 
-  .h4PageHeader{
-    font-size:1.5em;
+  a.panelHeader{
+    font-size:1.3em;
   }
 }
