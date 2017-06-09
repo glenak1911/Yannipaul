@@ -23,6 +23,11 @@
     <?php wp_head(); ?>
   </head>
   <body>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+    </div>
     <div id="wrap">
       <div id="main">
         <div class="jumbotron">
@@ -31,15 +36,14 @@
             <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
           </div>
           <div class="container">
-            <!--<a class="navbar-brand" href="#">Navbar</a>-->
             <hr class="headerHr-top">
-              <ul class="customNavList">
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">HOME</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">LITTLE NOTES</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">BEST THOUGHTS @ 3 A.M.</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">CURRENTLY CONSUMING</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">OBSESSIONS</a></li>
-                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yannivlogs">YANNIVLOGS</a></li>
+              <ul class="customNavList navbar navbar-toggleable-md" role="navigation">
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
+                <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>/yannivlogs">YanniVlogs</a></li>
               </ul>
             <hr class="headerHr-bottom">
           </div>

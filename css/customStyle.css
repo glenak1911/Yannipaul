@@ -32,7 +32,7 @@ p{
 }
 
 body{
-  font-family: 'Muli', sans-serif;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   color: #000;
 }
 
@@ -47,7 +47,7 @@ body{
 }
 
 hr.headerHr-bottom{
-  margin:10px 0px 10px 0px;
+  margin:10px 0px 20px 0px;
   height: 3px;
   background-color: #B74C82;
   border-top: 2px dotted #8c8b8b;
@@ -55,11 +55,15 @@ hr.headerHr-bottom{
 }
 
 hr.headerHr-top{
-  margin:30px 0px 10px 0px;
+  margin:20px 0px 10px 0px;
   height: 3px;
   background-color: #B74C82;
   border-top: 2px dotted #8c8b8b;
   border:none;
+}
+
+.navbar{
+  min-height: 0px;
 }
 
 ul.customNavList{
@@ -87,6 +91,7 @@ ul.customNavList a{
 h1.header{
   font-family: 'font94030', cursive;
   margin-bottom: 0px;
+  padding-bottom: 5px;
 }
 
 a.titleHeader{
@@ -101,10 +106,11 @@ a.panelHeader{
 p.titleDescription{
   color: #000000;
   letter-spacing: 1.5px;
-  font-family: 'Muli', sans-serif;
   font-size: 10pt;
   text-align: center;
   margin-bottom: 0px;
+  text-transform: uppercase;
+  -webkit-text-transform: uppercase;
 }
 
 .top-buffer {
@@ -119,26 +125,28 @@ p.titleDescription{
 
 
 .category-title{
-  font-family: 'Muli', sans-serif;
-  font-size: 2.5em;
   margin-bottom: 0px;
+  font-size: 1.45em;
+  letter-spacing: 1.5px;
+  padding-bottom: 5px;
   text-transform: uppercase;
   -webkit-text-transform: uppercase;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 .category-yannivlogs-page h2{
   text-align: center;
 }
 
 .grid-title-custom{
-  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 1.55em;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 .comment-reply-title{
-  font-family: 'Muli', sans-serif;
   font-size: 1.2em;
   text-align: center;
   color: #000;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 .blog-post-meta a{
@@ -453,7 +461,7 @@ ul.children{
 
 @media screen and (min-width: 768px){
   hr.headerHr-top{
-    margin:48px 0px 10px 0px;
+    margin:20px 0px 10px 0px;
     height: 3px;
     background-color: #B74C82;
     border-top: 2px dotted #8c8b8b;
