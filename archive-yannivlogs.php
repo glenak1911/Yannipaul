@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h2 class="category-title center-title">YanniVlogs</h2>
-<p class="titleDescription">LIFESTYLE, HOUSE AND HOME PROJECTS</p>
+<p class="titleDescription">lifestyle, house and home projects</p>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter

@@ -218,7 +218,7 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
             $wpse_excerpt = strip_tags($wpse_excerpt, wpse_allowedtags()); /*IF you need to allow just certain tags. Delete if all tags are allowed */
 
             //Set the excerpt word count and only break after sentence is complete.
-                $excerpt_word_count = 75;
+                $excerpt_word_count = 20;
                 $excerpt_length = apply_filters('excerpt_length', $excerpt_word_count);
                 $tokens = array();
                 $excerptOutput = '';
@@ -232,6 +232,7 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
                     if ($count >= $excerpt_word_count && preg_match('/[\,\;\?\.\!]\s*$/uS', $token)) {
                     // Limit reached, continue until , ; ? . or ! occur at the end
                         $excerptOutput .= trim($token);
+												$excerptOutput .= "[...]";
                         break;
                     }
 
