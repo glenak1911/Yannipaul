@@ -23,11 +23,28 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-      </button>
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="<?php bloginfo( 'url' );?>">Home</a></li>
+            <li><a href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
+            <li><a href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
+            <li><a href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
+            <li><a href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
+            <li><a href="<?php bloginfo( 'url' );?>/yannivlogs">YanniVlogs</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
     <div id="wrap">
       <div id="main">
         <div class="jumbotron">
@@ -35,7 +52,7 @@
             <h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
             <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
           </div>
-          <div class="container">
+          <div class="container custom-nav-container">
             <hr class="headerHr-top">
               <ul class="customNavList navbar navbar-toggleable-md" role="navigation">
                 <li class="customNavListItem"><a class="nav-link" href="<?php bloginfo( 'url' );?>">Home</a></li>

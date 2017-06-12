@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h2 class="category-title center-title">Little Notes</h2>
-<p class="titleDescription">for simple yet inspiring lifestyle content</p>
+<p class="titleDescription">For simple notes about artistry, ideas and events.</p>
 	<div id="gridcontainer">
 		<?php
 			$counter = 1; //start counter
