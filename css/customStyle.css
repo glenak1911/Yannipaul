@@ -47,11 +47,12 @@ body{
 }
 
 hr.mobile-divider{
-  margin:20px 0px 20px 0px;
-  height: 3px;
+  margin:20px auto 20px auto;
+  height: 1px;
   background-color: #B74C82;
   border-top: 2px dotted #8c8b8b;
   border:none;
+  width: 80%;
 }
 
 hr.headerHr-bottom{
@@ -96,6 +97,10 @@ ul.customNavList li{
   -webkit-transition: background-color .5s; /* Safari */
   transition: background-color .5s;
   background-color: rgba(237, 144, 225, .2);
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #000;
 }
 
 .navbar-header{
@@ -505,14 +510,12 @@ ul.children{
     .custom-nav-container{
       display:none;
     }
-}
 
-@media screen and (max-width:700px){
-  .customBuffer{
-    padding-bottom: 20px;
-  }
+    .customBuffer{
+      padding-bottom: 20px;
+    }
 
-  a.panelHeader{
-    font-size:1.3em;
-  }
+    a.panelHeader{
+      font-size:1.3em;
+    }
 }
