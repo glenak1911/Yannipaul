@@ -52,6 +52,9 @@
             <h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
             <p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>
           </div>
+          <div class="container custom-mobile-header-container">
+            <hr class="mobile-divider">
+          </div>
           <div class="container custom-nav-container">
             <hr class="headerHr-top">
               <ul class="customNavList navbar navbar-toggleable-md" role="navigation">

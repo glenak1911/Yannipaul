@@ -46,6 +46,14 @@ body{
   padding-bottom: 0px;
 }
 
+hr.mobile-divider{
+  margin:20px 0px 20px 0px;
+  height: 3px;
+  background-color: #B74C82;
+  border-top: 2px dotted #8c8b8b;
+  border:none;
+}
+
 hr.headerHr-bottom{
   margin:10px 0px 20px 0px;
   height: 3px;
@@ -472,8 +480,12 @@ ul.children{
     display: none;
   }
 
+  .custom-mobile-header-container{
+    display:none;
+  }
+
   .custom-nav-container{
-    visibility:visible;
+    display:inline-block;
   }
 }
 
@@ -486,8 +498,12 @@ ul.children{
       display: inline;
     }
 
+    .custom-mobile-header-container{
+      display:block;
+    }
+
     .custom-nav-container{
-      visibility:hidden;
+      display:none;
     }
 }
 
