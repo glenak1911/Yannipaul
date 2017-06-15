@@ -226,7 +226,7 @@ p.titleDescription{
   opacity: 0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  background-color: #ff69b4;
+  background-color: #e03ecb;
 }
 
 .frontPageSection:hover .frontPageHeaderContainer{
