@@ -252,13 +252,6 @@ p.titleDescription{
   -webkit-transform: translate(-50%, -50%);
 }
 
-/*.displayed {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative; } */
-
 ol.socialMedia li{
   display:inline-block;
 }

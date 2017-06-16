@@ -1,8 +1,7 @@
 <?php get_header(); ?>
   <div class="row">
     <div class="col-md-6 top-buffer">
-      <div class="frontPageSection">
-        <div class="img-holder">
+      <div class="frontPageSection" ontouchstart="this.classList.toggle('hover');">
           <div class="img-helper">
             <?php
               $args = array(
@@ -20,14 +19,13 @@
                 } ?>
             <?php endforeach; ?>
         </div>
-        </div>
         <div class="frontPageHeaderContainer">
           <p class="frontPageHeader"><a class="panelHeader" href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></p>
         </div>
       </div>
     </div>
     <div class="col-md-6 top-buffer">
-      <div class="frontPageSection">
+      <div class="frontPageSection" ontouchstart="this.classList.toggle('hover');">
         <div class="img-helper">
           <?php
             $args = array(
@@ -53,7 +51,7 @@
   </div>
   <div class="row">
     <div class="col-md-6 top-buffer">
-      <div class="frontPageSection">
+      <div class="frontPageSection" ontouchstart="this.classList.toggle('hover');">
         <div class="img-helper">
           <?php
             $args = array(
@@ -77,7 +75,7 @@
       </div>
     </div>
     <div class="col-md-6 top-buffer">
-      <div class="frontPageSection">
+      <div class="frontPageSection" ontouchstart="this.classList.toggle('hover');">
         <div class="img-helper">
           <?php
             $args = array(

@@ -35,12 +35,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="<?php bloginfo( 'url' );?>">Home</a></li>
-            <li><a href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
-            <li><a href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
-            <li><a href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
-            <li><a href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
-            <li><a href="<?php bloginfo( 'url' );?>/yannivlogs">YanniVlogs</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>">Home</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/little-notes/">Little Notes</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/best-thoughts/">Best Thoughts @ 3 a.m.</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/currently-consuming/">Currently Consuming</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/obsessions/">Obsessions</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/yannivlogs">YanniVlogs</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
