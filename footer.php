@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-4">
         <div class="btn-group-xs">
-          <!--<button class="btn btn-custom" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>-->
+          <button class="btn btn-custom" onclick="location.href='<?php bloginfo( 'url' );?>/about';">About</button>
           <button class="btn btn-custom" onclick="location.href='<?php bloginfo( 'url' );?>/contact';">Get In Touch!</button>
         </div>
       </div>
