@@ -252,6 +252,10 @@ p.titleDescription{
   -webkit-transform: translate(-50%, -50%);
 }
 
+ol{
+    margin: 0px;
+}
+
 ol.socialMedia li{
   display:inline-block;
 }
@@ -463,6 +467,16 @@ ul.children{
 
 .searchBox{
   padding:3px;
+  border-color: #e03ecb;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.screen-reader-text{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+input[type=search]{
+  -webkit-appearance: searchfield;
 }
 
 @media screen and (min-width: 767px){
