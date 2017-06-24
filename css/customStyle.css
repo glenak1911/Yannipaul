@@ -287,6 +287,10 @@ a:hover{
   width:100%;
 }
 
+.postContainer a{
+  text-decoration: underline;
+}
+
 #gridcontainer{
   width: 100%;
 }
@@ -477,6 +481,16 @@ ul.children{
 
 input[type=search]{
   -webkit-appearance: searchfield;
+}
+
+.error_page{
+  height:100%;
+  width:100%;
+}
+
+.error_img{
+  height:300px;
+  width: 350px;
 }
 
 @media screen and (min-width: 767px){
