@@ -16,10 +16,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
-    <link href="https://www.fontify.me/wf/69133bf256b63caaef109dd895abd786" rel="stylesheet" type="text/css">
-    <link href="https://www.fontify.me/wf/8a4d709e5a5b2ca4fdadb6948053db36" rel="stylesheet" type="text/css">
+<!--    <link href="https://www.fontify.me/wf/69133bf256b63caaef109dd895abd786" rel="stylesheet" type="text/css">
+    <link href="https://www.fontify.me/wf/8a4d709e5a5b2ca4fdadb6948053db36" rel="stylesheet" type="text/css">-->
     <?php wp_head(); ?>
   </head>
   <body>

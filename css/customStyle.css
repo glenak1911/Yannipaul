@@ -8,6 +8,11 @@ html, body {
   color: #000;
 }
 
+@font-face{
+  font-family:PinyonScript;
+  src:url('../fonts/PinyonScript-Regular.ttf');
+}
+
 a{
   color: #e03ecb;
 }
@@ -116,7 +121,7 @@ ul.customNavList a{
 }
 
 h1.header{
-  font-family: 'font94030', cursive;
+  font-family: 'PinyonScript', cursive;
   margin-bottom: 0px;
   padding-bottom: 5px;
 }
@@ -145,11 +150,14 @@ p.titleDescription{
 }
 
 .blog-post-title{
-  font-family: 'font94030', cursive;
+  font-family: 'PinyonScript', cursive;
   letter-spacing: 1.5px;
   color: #000;
 }
 
+.blog-post-content img{
+    opacity: 1;
+}
 
 .category-title{
   margin-bottom: 0px;
@@ -240,7 +248,7 @@ p.titleDescription{
 }
 
 .frontPageHeader{
-  font-family: 'font94030', cursive;
+  font-family: 'PinyonScript', cursive;
   font-size: 1.8em;
   line-height: 300px;
   position:absolute;
