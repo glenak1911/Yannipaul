@@ -1,0 +1,10 @@
+version: 0.0
+os: Limix
+files:
+  - source: /
+    destination: /var/www/html/wp-content/themes/YanniPaul
+permissions:
+  - object: /
+    owner: apache
+    group: apache
+    mode: 644 
